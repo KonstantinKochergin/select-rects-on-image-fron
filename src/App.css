@@ -1,0 +1,28 @@
+.app {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.app__canvas {
+  width: 100%;
+  height: calc(100% - 49px);
+}
+
+.app__overlay-canvas {
+  position: absolute;
+  width: 100%;
+  height: calc(100% - 49px);
+}
+
+.app__input-panel {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #AEAEAE;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
